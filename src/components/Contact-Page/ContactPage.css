@@ -1,0 +1,121 @@
+.google-map-iframe{
+
+    
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.firma-info-container{
+
+   
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.div-info-interal {
+     
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+
+    
+}
+
+.div-info-interal p{
+
+    margin-top: 0;
+}
+
+.div-info-interal span{
+
+    font-weight: bold;
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+.container-forumlar-de-contact{
+
+    
+    margin-top: 20px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.formular-contact-butoaie{
+
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    
+    gap: 30px;
+    height: 500px;
+        
+    
+}
+
+.input-row {
+
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+    margin-left: 10px;
+    gap: 10px;
+    
+}
+
+.input-row input{
+
+    padding: 10px;
+    border: 1px solid rgb(127, 0, 0);
+    border-radius: 10px;
+    
+    
+}
+
+.input-text-area {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.input-text-area textarea {
+    padding: 30px;
+    border: 1px solid rgb(127, 0, 0);
+    resize: vertical;
+    height: 100%; /* Ajustează înălțimea text area-ului la 200px */
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box; /* Asigură că dimensiunea include padding-ul și border-ul */
+}
+
+.tirmite-formular-btn{
+
+
+    padding: 15px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+}

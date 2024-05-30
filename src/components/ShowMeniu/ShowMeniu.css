@@ -1,0 +1,30 @@
+.recomandarile-noastre-container{
+
+    
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.show-meniu-container{
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin-left: 20%;
+    
+}
+
+.top-vanzari-container{
+
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

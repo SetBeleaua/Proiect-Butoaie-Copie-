@@ -1,0 +1,69 @@
+
+.show-product-container{
+
+
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 80%;
+   
+}
+
+.product-imagine{
+
+    flex: 0;
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.product-details{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+
+}
+
+.product-imagine img{
+
+    border-radius: 100%;
+}
+
+.product-ingredients{
+
+    font-weight: 400;
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 10px;
+    word-break: break-all;
+    
+    
+}
+
+.product-title{
+
+    color: #E6B325;
+
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.price-comanda-container{
+
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+}

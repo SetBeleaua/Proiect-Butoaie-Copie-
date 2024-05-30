@@ -1,0 +1,142 @@
+
+.info-cont-container{
+
+    
+    height: 900px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid pink;
+
+}
+
+.info-container-header{
+
+    border-bottom: 1px solid pink;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.info-container-header-h1 {
+
+    margin-bottom: 0;
+    font-size: 34px;
+}
+
+.info-container-header-p1{
+
+    font-size: 20px;
+}
+
+.info-container-header-span{
+
+
+    color: #e6b325;
+    
+}
+
+.despre-la-butoaie-container{
+
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+    width: 1300px;
+    height: 70%;
+    
+    
+}
+
+.lef-side-photo{
+
+    flex: 1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side-text{
+
+    flex: 1;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.right-side-text-info-card{
+
+    
+    width: 60%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    height: 82%;
+    width: 80%;
+    border: 1px solid #e6b325;
+    
+    
+   
+}
+
+.right-side-text-info-card span{
+
+    color: #e6b325;
+}
+
+.right-side-text-info-card p{
+    margin-bottom: 0;
+}
+
+.right-side-text-info-card h2{
+
+    
+    font-size: 31px;
+    
+    width: 80%;
+    text-align: center;
+
+}
+
+.te-afli-in-cautare-p{
+
+    
+    width: 80%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    color: #61481c;
+}
+
+.de-asemenea-p{
+
+    
+    width: 70%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    color: #61481c;
+}
+
+.telefon-info-p{
+
+    font-size: 20px;
+}
+
+
+.email-info-p{
+
+    font-size: 20px;
+}

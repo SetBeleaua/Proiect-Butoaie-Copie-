@@ -1,0 +1,79 @@
+.carousel-container {
+    position: relative; /* Poziționare relativă pentru a permite poziționarea absolută a containerului cu text */
+    width: 100%;
+     /* Lățimea maximă a containerului, ajustabilă după necesități */
+    margin: 0 auto; /* Așază containerul în centru */
+    display: flex;
+    
+    
+    
+  }
+  
+  .carousel-slide {
+    position: relative; /* Poziționare relativă pentru a permite poziționarea absolută a containerului cu text */
+    
+  }
+  
+  .carousel-slide > div {
+    position: relative; /* Poziționare relativă pentru a permite poziționarea absolută a containerului cu text */
+    width: 100%;
+    }
+  
+  .carousel-slide > div > img {
+    width: 100%; /* Asigură că imaginea acoperă întregul slide */
+    height: auto; /* Menține proporțiile corecte ale imaginii */
+  }
+  
+  .profita-acum-container {
+    position: absolute; /* Poziționare absolută pentru containerul cu text */
+    top: 20%; /* Plasează containerul la mijloc pe verticală */
+    left: 50%; /* Plasează containerul la mijloc pe orizontală */
+    transform: translate(-50%, -50%); /* Ajustează poziția containerului pentru a fi centrat atât pe verticală, cât și pe orizontală */
+    text-align: center; /* Aliniere text la centru */
+    
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    
+    background-color: green;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .profita-acum-container h1 {
+    color: white; /* Culorea textului */
+    font-size: 24px; /* Dimensiunea textului */
+    font-weight: 200;
+    
+    font-size: 30px;
+  }
+  
+
+.livram-intre-container{
+    
+    position: absolute;
+    
+    top: 40%;
+    left: 40%;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.livram-intre-container p{
+
+    color: white;
+    font-size: 30px;
+}
+
+.butoaie-logo-container-slide{
+
+    position: absolute;
+    top: 80%;
+   
+    left: 46%;
+    
+
+}
+

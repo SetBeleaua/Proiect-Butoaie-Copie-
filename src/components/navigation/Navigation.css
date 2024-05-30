@@ -1,0 +1,65 @@
+
+
+.navigation-container{
+
+    background-color: #4d2600;
+    background-image: url('../../assets/woodTexture.jpg');
+    background-size: auto; 
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    
+
+}
+
+.navigation-logo{
+
+    flex:1;
+}
+
+.navigation-logo img{
+
+    margin-left: 30px;
+}
+
+
+.main-menu {
+    list-style-type: none; /* Elimină marcatorul de listă */
+    padding: 0; /* Elimină padding-ul implicit al listei */
+    margin: 0; /* Elimină margin-ul implicit al listei */
+    flex: 1;
+}
+
+.main-menu li {
+    display: inline-block; /* Așează elementele pe același rând */
+    margin-right: 20px; /* Spațiere între elemente */
+}
+
+.main-menu li a {
+    text-decoration: none; /* Elimină sublinierea link-urilor */
+    color:white; /* Culorile textului */
+    font-size: 16px; /* Dimensiunea textului */
+    font-weight: bold; /* Stilul textului */
+}
+
+.main-menu li a:hover {
+    color: #555; /* Schimbarea culorii la hover */
+}
+
+
+.shopping-cart-container{
+
+    flex: 1;
+   
+    display: flex;
+    
+
+}
+
+.shopping-cart-container img {
+
+    height: 40px;
+    margin-left: 200px;
+    cursor: pointer;
+}
